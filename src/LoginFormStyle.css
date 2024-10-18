@@ -1,0 +1,51 @@
+.loginBox {
+  width: 420px;
+  background-color: transparent;
+  backdrop-filter: blur(30px);
+  border-radius: 16px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 16px;
+  text-align: center;
+  color: white;
+}
+
+.inputBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+}
+
+.inputBox .input {
+  padding: 16px;
+  width: 100%;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.inputBox input::placeholder {
+  color: white;
+}
+
+.loginBox button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  color: black;
+}
+
+.loginBox button:hover {
+  background-color: #553382;
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+}
